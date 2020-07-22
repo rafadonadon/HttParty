@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="32" skipped="0" failures="0" errors="0" time="7.408810" timestamp="2020-07-22T12:53:56-03:00" hostname="DESKTOP-JS2PLTC">
+<properties>
+<property name="seed" value="19330"/>
+</properties>
+<testcase classname="spec.delete_spec" name="==&gt; DELETE Quando tenho usuario cadastrado is expected to eql &quot;204&quot;" file="./spec/delete_spec.rb" time="3.878694"></testcase>
+<testcase classname="spec.delete_spec" name="==&gt; DELETE Quando não existe usuario is expected to eql &quot;404&quot;" file="./spec/delete_spec.rb" time="0.186363"></testcase>
+<testcase classname="spec.delete_spec" name="==&gt; DELETE Quando ID errado is expected to eql &quot;412&quot;" file="./spec/delete_spec.rb" time="0.186489"></testcase>
+<testcase classname="spec.get_spec" name="==&gt; GET Quando um usuario eh registrado is expected to eql &quot;200&quot;" file="./spec/get_spec.rb" time="0.201606"></testcase>
+<testcase classname="spec.get_spec" name="==&gt; GET Quando um usuario eh registrado is expected to eql &quot;Darth Caedus&quot;" file="./spec/get_spec.rb" time="0.218177"></testcase>
+<testcase classname="spec.get_spec" name="==&gt; GET Quando um usuario eh registrado is expected to eql &quot;$2b$10$57zt8w09JBZFbpK2T9aa3O6BTKnnrYPD4pUp8L86stjrWoi02OUdy&quot;" file="./spec/get_spec.rb" time="0.192202"></testcase>
+<testcase classname="spec.get_spec" name="==&gt; GET Quando um usuario eh registrado is expected to eql &quot;opress.savage@hotmail.com&quot;" file="./spec/get_spec.rb" time="0.201255"></testcase>
+<testcase classname="spec.get_spec" name="==&gt; GET Quando um usuario eh registrado is expected to eql 1, 54, 15, 22, 7, 2020, 3, 204, false, and nil" file="./spec/get_spec.rb" time="0.243817"></testcase>
+<testcase classname="spec.get_spec" name="==&gt; GET Quando um usuario eh registrado is expected to eql 2, 54, 15, 22, 7, 2020, 3, 204, false, and nil" file="./spec/get_spec.rb" time="0.203001"></testcase>
+<testcase classname="spec.get_spec" name="==&gt; GET Quando não existe usuario is expected to eql &quot;404&quot;" file="./spec/get_spec.rb" time="0.185249"></testcase>
+<testcase classname="spec.get_spec" name="==&gt; GET Quando ID errado is expected to eql &quot;412&quot;" file="./spec/get_spec.rb" time="0.198304"></testcase>
+<testcase classname="spec.get_spec" name="==&gt; GET Quando Outro ID is expected to eql &quot;401&quot;" file="./spec/get_spec.rb" time="0.270544"></testcase>
+<testcase classname="spec.post_spec" name="==&gt; POST Quando cadastro um novo usuario is expected to eql &quot;200&quot;" file="./spec/post_spec.rb" time="0.095143"></testcase>
+<testcase classname="spec.post_spec" name="==&gt; POST Quando email for Duplicado is expected to eql &quot;409&quot;" file="./spec/post_spec.rb" time="0.185484"></testcase>
+<testcase classname="spec.post_spec" name="==&gt; POST Quando email for Duplicado is expected to eql &quot;Oops. Looks like you already have an account with this email address.&quot;" file="./spec/post_spec.rb" time="0.188985"></testcase>
+<testcase classname="spec.post_spec" name="==&gt; POST Quando email estiver Invalido is expected to eql &quot;412&quot;" file="./spec/post_spec.rb" time="0.016386"></testcase>
+<testcase classname="spec.post_spec" name="==&gt; POST Quando email estiver Invalido is expected to eql &quot;Oops. You entered a wrong email.&quot;" file="./spec/post_spec.rb" time="0.013455"></testcase>
+<testcase classname="spec.post_spec" name="==&gt; POST Quando nome estiver vazio is expected to eql &quot;412&quot;" file="./spec/post_spec.rb" time="0.034688"></testcase>
+<testcase classname="spec.post_spec" name="==&gt; POST Quando nome estiver vazio is expected to eql &quot;Validation notEmpty on full_name failed&quot;" file="./spec/post_spec.rb" time="0.014463"></testcase>
+<testcase classname="spec.post_spec" name="==&gt; POST Quando email estiver vazio is expected to eql &quot;412&quot;" file="./spec/post_spec.rb" time="0.013553"></testcase>
+<testcase classname="spec.post_spec" name="==&gt; POST Quando email estiver vazio is expected to eql &quot;Validation notEmpty on email failed&quot;" file="./spec/post_spec.rb" time="0.028316"></testcase>
+<testcase classname="spec.post_spec" name="==&gt; POST Quando senha estiver vazio is expected to eql &quot;412&quot;" file="./spec/post_spec.rb" time="0.014942"></testcase>
+<testcase classname="spec.post_spec" name="==&gt; POST Quando senha estiver vazio is expected to eql &quot;Validation notEmpty on password failed&quot;" file="./spec/post_spec.rb" time="0.025426"></testcase>
+<testcase classname="spec.post_spec" name="==&gt; POST Quando nome estiver NULO is expected to eql &quot;412&quot;" file="./spec/post_spec.rb" time="0.012597"></testcase>
+<testcase classname="spec.post_spec" name="==&gt; POST Quando nome estiver NULO is expected to eql &quot;Users.full_name cannot be null&quot;" file="./spec/post_spec.rb" time="0.026653"></testcase>
+<testcase classname="spec.post_spec" name="==&gt; POST Quando email estiver NULO is expected to eql &quot;412&quot;" file="./spec/post_spec.rb" time="0.024988"></testcase>
+<testcase classname="spec.post_spec" name="==&gt; POST Quando email estiver NULO is expected to eql &quot;Users.email cannot be null&quot;" file="./spec/post_spec.rb" time="0.012147"></testcase>
+<testcase classname="spec.post_spec" name="==&gt; POST Quando senha estiver NULO is expected to eql &quot;412&quot;" file="./spec/post_spec.rb" time="0.015000"></testcase>
+<testcase classname="spec.post_spec" name="==&gt; POST Quando senha estiver NULO is expected to eql &quot;Users.password cannot be null&quot;" file="./spec/post_spec.rb" time="0.027596"></testcase>
+<testcase classname="spec.put_spec" name="==&gt; PUT Quando tenho usuario cadastrado is expected to eql &quot;200&quot;" file="./spec/put_spec.rb" time="0.000164"></testcase>
+<testcase classname="spec.put_spec" name="==&gt; PUT Quando tenho usuario cadastrado is expected to eql &quot;Edson Boaro&quot;" file="./spec/put_spec.rb" time="0.000177"></testcase>
+<testcase classname="spec.put_spec" name="==&gt; PUT Quando tenho usuario cadastrado is expected to eql &quot;edsonboaro@teste.com&quot;" file="./spec/put_spec.rb" time="0.000126"></testcase>
+</testsuite>

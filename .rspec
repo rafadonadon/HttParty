@@ -1,0 +1,6 @@
+--require spec_helper
+--format documentation ##substitui o -fd da linha de comando
+--format html
+--out log/report.html
+--format RspecJunitFormatter
+--out log/report.xml
